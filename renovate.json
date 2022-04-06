@@ -3,5 +3,5 @@
     "config:base",
     "group:all"
   ],
-  "enabledManagers": ["gradle", "gradle-wrapper"]
+  "enabledManagers": ["gradle"]
 }
