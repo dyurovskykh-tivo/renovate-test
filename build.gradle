@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+repositories {
+    maven {
+        url "$SPRING_ARTIFACTORY_BASE_URL/release"
+    }
+}
+
+dependencies {
+    implementation(group: 'org.springframework', name: 'spring-core', version: SPRING_VERSION)
+}
