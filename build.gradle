@@ -13,7 +13,7 @@ dependencies {
     // Not supported by Renovate
     implementation(group: 'org.springframework', name: 'spring-beans', version: SPRING_VERSION, classifier: 'sources')
 
-    // Supported by Renovate
+    // Not supported by Renovate
     implementation(group: 'org.springframework', name: 'spring-expression', version: SPRING_VERSION) {
         exclude module: 'spring-jcl'
     }
